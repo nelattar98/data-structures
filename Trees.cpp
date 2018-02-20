@@ -1,3 +1,4 @@
+//This is a code that has two trees that are outputted in pre-order
 #include<iostream>
 #include<stdexcept>
 #include<algorithm>
