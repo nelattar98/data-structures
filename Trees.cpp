@@ -246,7 +246,7 @@ BNode<T>* Tree<T>:: bstRmvNode(BNode<T>* ndPtr){
 	}
 	else if (ndPtr -> lChild != nullptr && !( ndPtr -> rChild != nullptr))
 	{
-		// C replaces N as the child of N’s parent
+		// C replaces N as the child of Nâ€™s parent
 		if (ndPtr->lChild != nullptr)
 			BNode<T>* nodeToConnectPtr = ndPtr->lChild;
 		else
